@@ -1,7 +1,7 @@
 #ifndef __http_post_h_
 #define __http_post_h_
 
-#include "TCPClient.h"
+#include "tcp_client.h"
 
 typedef int (*HTTPPost_OnData)(void* _Context, const char* _Data, int _Len);
 
